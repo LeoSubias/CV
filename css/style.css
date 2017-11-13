@@ -9,8 +9,6 @@
 	
 }
 
-
-
 .dev{
 	font-size:35px; 
 }
@@ -85,5 +83,3 @@ height: 35%;
 	background-color: black;
 	border-radius: 17px 2px 17px 2px
 }
-/*linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.3)),no-repeat, fixed
-/*background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.3)), url(Image/image1.jpg) no-repeat fixed;*/
