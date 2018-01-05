@@ -1,13 +1,17 @@
 
 /*Toutes les uk- */
 
-[class*="uk"]{
+[class*="uk-"]{
 	padding-top: 20px;
-	opacity: 0.9;
+	opacity: 0.8;
 	text-align: center;
-	color: #b67823;
+	color: white;
 	font-size:20px;
 	
+}
+
+.header{
+	color: white;
 }
 
 /* balise html */
@@ -27,11 +31,30 @@ body{
 	font-size:35px; 
 }
 
+.title-ti{
+	color: black;
+	opacity: 1;
+}
+
+.title{
+	color: black;
+	opacity: 1;
+}
+
+.text{
+	color: black;
+	opacity: 1;
+}
+
+.test{
+	background: #A9A9A9;
+	color:black;
+}
+
 .body{
 	margin-top: 15px;
 	margin-bottom: 15px;
 background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.5)),url(../image/image-Amsterdam.jpg) no-repeat fixed;
-
 height: auto;
 width: auto;
 }
