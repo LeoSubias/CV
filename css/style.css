@@ -3,7 +3,6 @@
 
 [class*="uk-"]{
 	padding-top: 20px;
-	opacity: 0.8;
 	text-align: center;
 	color: white;
 	font-size:20px;
@@ -14,6 +13,8 @@
 	color: white;
 }
 
+
+
 /* balise html */
 
 li{
@@ -23,6 +24,7 @@ li{
 body{
 	margin-right: 10px;
 	margin-left: 10px;
+	font-family: 'Cabin', sans-serif;
 }
 
 /*Class html */
@@ -47,14 +49,12 @@ body{
 }
 
 .test{
-	background: #A9A9A9;
 	color:black;
 }
 
 .body{
 	margin-top: 15px;
 	margin-bottom: 15px;
-background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.5)),url(../image/image-Amsterdam.jpg) no-repeat fixed;
 height: auto;
 width: auto;
 }
@@ -81,6 +81,11 @@ height: 35%;
 	padding-bottom: 10px;
 }
 
+.lien{
+	margin-right: 0.8em;
+	margin: 10px;
+}
+
 .scroll{
 	margin-top: 15px;
 	padding-top: 0px;
@@ -89,23 +94,37 @@ height: 35%;
 	border-radius: 17px 2px 17px 2px
 }
 
+.lien{
+	color : black;
+	text-decoration:none;
+	list-style: none;
+	/* transition quand la souris quitte l'élément */
+	transition: color 3s;
+
+}
+
+.lien:hover{
+	color:orange;
+	text-decoration:none;
+	list-style: none;
+	/* transition quand la souris survole */
+	transition: color 1.5s;
+}
+
+.li-logo{
+	margin:auto;
+	list-style: none;
+}
+
 /*-----Responsive-----*/
 
 @media all and (max-width: 768px) {
-
 	.photo-profil{
 		width: 100px;
 		height: 100px;
 	}
-
 	.image-github{
 		height: 50%;
 		width: 45%;
 	}
-
-	.section-1{
-
-	}
-
-	
 }

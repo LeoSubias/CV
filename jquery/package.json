@@ -2,7 +2,7 @@
   "_args": [
     [
       "jquery",
-      "/home/simplon/Calculatrice"
+      "/home/leo/cour/cd-test"
     ]
   ],
   "_from": "jquery@latest",
@@ -30,13 +30,13 @@
     "type": "tag"
   },
   "_requiredBy": [
-    "/"
+    "#USER"
   ],
   "_resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
   "_shasum": "5c4d9de652af6cd0a770154a631bba12b015c787",
   "_shrinkwrap": null,
   "_spec": "jquery",
-  "_where": "/home/simplon/Calculatrice",
+  "_where": "/home/leo/cour/cd-test",
   "author": {
     "name": "JS Foundation and other contributors",
     "url": "https://github.com/jquery/jquery/blob/3.2.1/AUTHORS.txt"
